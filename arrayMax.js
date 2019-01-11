@@ -4,12 +4,13 @@ function arrayMax(numbers) {
   if(numbers.length == 0)
     return 0;
 
-  let max = numbers[0];
+  let maximum = numbers[0];
   for(i of numbers) {
-    if(i>max) max = i;
+    if(i > maximum) maximum = i;
   }
   
-  return max;
+  return maximum;
 }
 
-console.log( arrayMax([20,30,10]) ); // ==> 30
+// console.log( arrayMax( [20,30,10] ) ); // ==> 30
+// console.log( arrayMax( [-2, -3, -2, -1, -3, -2] ) );
